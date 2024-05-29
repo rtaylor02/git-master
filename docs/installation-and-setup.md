@@ -46,6 +46,7 @@ Once you initialise a local git repository, check if that repo linked to any rem
 git remote -v
 ```
 > **-v:** verbose
+
 ⚠️git_remote_v.png
 
 To link your local repo to a remote repo:
