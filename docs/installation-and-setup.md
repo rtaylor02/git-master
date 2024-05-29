@@ -16,7 +16,9 @@ git config --global user.name "Rod Taylor"
 git config --global user.email "git-master@mail.com"
 ```
 To initialise a local repository, type the command below in the repository folder. This will create a hidden .git folder inside the repo:
-``` git init ```
+```
+git init
+```
 
 ## Remote Setup
 Remote here means GitHub.
@@ -25,6 +27,7 @@ Once you initialise a local git repository, check if that repo linked to any rem
 git remote -v
 ```
 > **-v:** verbose
+
 Remote reference is named, by default, to `origin`. Use command below to rename. E.g. from `origin` to `main`:
 ```
 git remote -rename origin main
