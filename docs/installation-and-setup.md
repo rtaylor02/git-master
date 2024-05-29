@@ -21,7 +21,16 @@ git init
 ```
 
 ## Remote Setup
-Remote here means GitHub.
+Remote here means GitHub repository that is linked/referenced by your local repo.
+Your remote repo can exist before you create your local (see work flow #1), or after you create your local (see work flow #2).
+```mermaid
+flowchart LR
+A[local repo] --push--> B[GitHub repo]
+```
+```mermaid
+flowchart LR
+A[GitHub repo] --pull--> B[local repo]
+```
 Once you initialise a local git repository, check if that repo linked to any remote repo:
 ```
 git remote -v
@@ -32,6 +41,7 @@ Remote reference is named, by default, to `origin`. Use command below to rename.
 ```
 git remote -rename origin main
 ```
+
 [return to Contents](https://github.com/rtaylor02/git-master/blob/main/README.md)
 
 # My Scratch Pad
