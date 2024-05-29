@@ -16,6 +16,7 @@ git config --global user.name "Rod Taylor"
 git config --global user.email "git-master@mail.com"
 ```
 
+# My Scratch Pad
 > **Note:** This is a note
 
 ```
