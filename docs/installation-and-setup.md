@@ -26,6 +26,8 @@ Once you initialise a local git repository, check if that repo linked to any rem
 ```
 git remote -v
 ```
+![image](https://github.com/rtaylor02/git-master/assets/97712087/7a8dd43f-279b-4d15-a015-df94a7408963)
+
 > **-v:** verbose
 
 Remote reference is named, by default, to `origin`. Use command below to rename. E.g. from `origin` to `main`:
