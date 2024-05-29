@@ -1,6 +1,11 @@
 # Installation and Setup
 ## Local Setup
 Based on your operating system, follow official guide [here.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+Once installed, check from command line:
+```
+git --version
+```
+<git_version.png>
 ## Setup
 To know the location of your git configuration file (.gitconfig):
 ```
@@ -19,10 +24,14 @@ To initialise a local repository, type the command below in the repository folde
 ```
 git init
 ```
+If you want Git to exempt certain files or directories from being tracked, specify them in .gitignore file. Create .gitignore file in root of your repo:
+```
+code .gitignore
+```
 
 ## Remote Setup
 Remote here means GitHub repository that is linked/referenced by your local repo.
-Your remote repo can exist before you create your local (see work flow #1), or after you create your local (see work flow #2).
+Your remote repo can exist before (push), or after (pull) you create your local.
 ```mermaid
 flowchart LR
 A[local repo] --push--> B[GitHub repo]
@@ -37,9 +46,23 @@ git remote -v
 ```
 > **-v:** verbose
 
+To link your local repo to a remote repo:
+```
+git remote add <remote reference> <remote url>
+```
+
 Remote reference is named, by default, to `origin`. Use command below to rename. E.g. from `origin` to `main`:
 ```
 git remote -rename origin main
+```
+To push your branch's new commits to remote repo branch:
+```
+git push -u <remote reference> <remote branch>
+```
+> **-u:** --set-upstream. You only need to set upstream once at your first push.
+E.g.
+```
+git push -u origin main
 ```
 
 [return to Contents](https://github.com/rtaylor02/git-master/blob/main/README.md)
