@@ -5,7 +5,9 @@ Once installed, check from command line:
 ```
 git --version
 ```
-<span style="color:red"><git_version.png></span>
+
+<span style="color:red">git_version.png</span>
+
 ## Setup
 To know the location of your git configuration file (.gitconfig):
 ```
