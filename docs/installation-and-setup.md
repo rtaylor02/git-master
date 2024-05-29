@@ -5,8 +5,7 @@ Once installed, check from command line:
 ```
 git --version
 ```
-
-<span style="color:red">git_version.png</span>
+⚠️ git_version.png
 
 ## Setup
 To know the location of your git configuration file (.gitconfig):
@@ -47,6 +46,7 @@ Once you initialise a local git repository, check if that repo linked to any rem
 git remote -v
 ```
 > **-v:** verbose
+⚠️git_remote_v.png
 
 To link your local repo to a remote repo:
 ```
@@ -66,6 +66,7 @@ E.g.
 ```
 git push -u origin main
 ```
+⚠️git_push_origin_main.png
 
 [return to Contents](https://github.com/rtaylor02/git-master/blob/main/README.md)
 
