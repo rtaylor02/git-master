@@ -4,17 +4,24 @@ Based on your operating system, follow official guide [here.](https://git-scm.co
 ## Setup
 To know the location of your git configuration file (.gitconfig):
 '''
+
 git config --list --show-origin
+
 '''
 To edit your git configuration using Visual Code (arbitrary), enter the full path into the command below. E.g. ~/.config is the path:
 '''
+
 code ~/.gitconfig
+
 '''
 Alternatively, you can modify .gitconfig file via CLI if you know the elements to set. E.g. to change username and email address:
+
 '''
 git config --global user.name "Rod Taylor"
 git config --global user.email "git-master@mail.com"
+
 '''
+
 > **Note:** This is a note
 
 ```
