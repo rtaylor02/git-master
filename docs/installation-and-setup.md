@@ -1,5 +1,5 @@
 # Installation and Setup
-## Installation
+## Local Setup
 Based on your operating system, follow official guide [here.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 ## Setup
 To know the location of your git configuration file (.gitconfig):
@@ -15,7 +15,20 @@ Alternatively, you can modify .gitconfig file via CLI if you know the elements t
 git config --global user.name "Rod Taylor"
 git config --global user.email "git-master@mail.com"
 ```
+To initialise a local repository, type the command below in the repository folder. This will create a hidden .git folder inside the repo:
+``` git init ```
 
+## Remote Setup
+Remote here means GitHub.
+Once you initialise a local git repository, check if that repo linked to any remote repo:
+```
+git remote -v
+```
+> **-v:** verbose
+Remote reference is named, by default, to `origin`. Use command below to rename. E.g. from `origin` to `main`:
+```
+git remote -rename origin main
+```
 [return to Contents](https://github.com/rtaylor02/git-master/blob/main/README.md)
 
 # My Scratch Pad
