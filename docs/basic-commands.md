@@ -23,7 +23,7 @@ or
 ```
 git add .
 ```
-> Stage <u>**all**</u> untracked files
+> Stage **all** untracked files
 
 ## Restore changes of untracked files
 ```
@@ -54,5 +54,8 @@ To apply most recently stashed modification:
 git stash pop
 ```
 
-
+## Fetch remote changes
+```
+git fetch <remote_reference>
+```
 
