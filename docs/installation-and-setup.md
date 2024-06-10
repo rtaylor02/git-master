@@ -1,5 +1,5 @@
 # Installation and Setup
-## Local Setup
+## Installation
 Based on your operating system, follow official guide [here.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 Once installed, check from command line:
 ```
@@ -7,7 +7,7 @@ git --version
 ```
 ⚠️ git_version.png
 
-## Setup
+## Local Setup
 To know the location of your git configuration file (.gitconfig):
 ```
 git config --list --show-origin
