@@ -47,6 +47,7 @@ git stash push -u -k
 '''
 > -u / --include-untracked
 > -k / --keep-index
+
 To apply most recently stashed modification:
 '''
 git stash pop
