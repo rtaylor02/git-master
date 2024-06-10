@@ -17,23 +17,23 @@ git log --oneline
 
 ## Add files - Untracked files become Staged files
 ```
-git add <file name>
+git add [<file name>...]
 ```
 or
 ```
 git add .
 ```
-> Stage all untracked files
+> Stage <u>**all**</u> untracked files
 
 ## Restore changes of untracked files
 ```
-git restore <file name>
+git restore [<file name>...]
 ```
 or
 ```
 git restore .
 ```
-> Restore all untracked files
+> Restore **all** untracked files
 
 ## Unstage files
 ```
