@@ -40,4 +40,17 @@ git restore .
 git reset <file name>
 ```
 
+## Stash current modifications
+You can save current modification (including untracked files) and return to clean working directory by stashing.
+'''
+git stash push -u -k
+'''
+> -u / --include-untracked
+> -k / --keep-index
+To apply most recently stashed modification:
+'''
+git stash pop
+'''
+
+
 
