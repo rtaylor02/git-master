@@ -46,6 +46,7 @@ You can save current modification (including untracked files) and return to clea
 git stash push -u -k
 ```
 > -u / --include-untracked
+
 > -k / --keep-index
 
 To apply most recently stashed modification:
