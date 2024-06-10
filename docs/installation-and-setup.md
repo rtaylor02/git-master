@@ -5,7 +5,6 @@ Once installed, check from command line:
 ```
 git --version
 ```
-⚠️ git_version.png
 ![CLI - git version](../img/git_version.png)
 
 ## Local Setup
@@ -48,7 +47,7 @@ git remote -v
 ```
 > **-v:** verbose
 
-⚠️git_remote_v.png
+![CLI - git remote](../img/git_remote_v.png)
 
 To link your local repo to a remote repo:
 ```
@@ -68,7 +67,7 @@ E.g.
 ```
 git push -u origin main
 ```
-⚠️git_push_origin_main.png
+![CLI - git push](../img/git_push_origin_main.png)
 
 [return to Contents](https://github.com/rtaylor02/git-master/blob/main/README.md)
 
