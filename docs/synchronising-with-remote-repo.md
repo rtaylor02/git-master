@@ -5,7 +5,6 @@ To stash away local repository changes (including untracked files) and revert to
 git stash push -u -k
 ```
 > -u / --include-untracked
->
 > -k / --keep-index
 
 ## Pulling
