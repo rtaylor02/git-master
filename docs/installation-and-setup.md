@@ -17,6 +17,7 @@ To edit your git configuration using Visual Code (arbitrary), enter the full pat
 code ~/.gitconfig
 ```
 > In the sample above, the location of the configuration file is ~/.config.
+
 Alternatively, you can modify .gitconfig file via CLI if you know the elements to set. E.g. to change username and email address:
 ```
 git config --global user.name "Rod Taylor"
