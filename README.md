@@ -11,3 +11,4 @@ All git commands you need to know
 7. [Pull requests](https://github.com/rtaylor02/git-master/blob/main/docs/pull-requests.md)
 8. [Squashing](https://github.com/rtaylor02/git-master/blob/main/docs/squashing.md)
 9. [Rebasing](https://github.com/rtaylor02/git-master/blob/main/docs/rebasing.md)
+10. [Undoing mistakes in Git](https://github.com/rtaylor02/git-master/blob/main/docs/undoing.md)
