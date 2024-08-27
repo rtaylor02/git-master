@@ -27,8 +27,8 @@ git reset --hard <commit_number>
 ```
 **NOTE**: commit_number is where HEAD is going to be after this command, i.e. changes in that commit will be visible.
 
-**NOTE**: 
-- --hard ==> modified files are unstaged and unmodified
+**Reset Mode**: 
+- --hard ==> any changes in the commit are deleted
 - --mixed ==> modified files are unstaged (default)
 - --soft ==> modified files are staged
 
