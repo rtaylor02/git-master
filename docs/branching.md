@@ -37,5 +37,9 @@ or
 ```
 git reset --hard HEAD~1
 ```
+## Delete remote branch
+```
+git push origin --delete <remote_branch_name>
+``` 
 
 [back to Contents](https://github.com/rtaylor02/git-master/blob/main/README.md)
