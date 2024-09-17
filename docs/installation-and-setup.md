@@ -31,6 +31,15 @@ If you want Git to exempt certain files or directories from being tracked, speci
 ```
 code .gitignore
 ```
+> **IMPORTANT:** When you change your .gitignore, you may need to remove the cached files if the files should be ignored with the new setup. To do so:
+```
+git rm --cached <file_name>
+```
+or, for all cached files
+```
+git rm -rf --cached .
+```
+> **NOTE**: I have never used -rf option!
 
 ## Remote Setup
 Remote here means GitHub repository that is linked/referenced by your local repo.
