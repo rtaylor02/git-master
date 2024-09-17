@@ -39,7 +39,7 @@ or, for all cached files
 ```
 git rm -rf --cached .
 ```
-> **NOTE**: I have never used -rf option!
+> **NOTE**: I have never used -rf option! It'd be interesting to see the result...
 
 ## Remote Setup
 Remote here means GitHub repository that is linked/referenced by your local repo.
