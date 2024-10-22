@@ -58,4 +58,20 @@ git stash pop
 ```
 git fetch <remote_reference>
 ```
+## Push a local repo to GitHub (remote)
+When you have a local project in your machine and you want to create a remote repo on Github:
+1) Create a remote repository
+2) Set remote origin on your local git repository
+   ```
+   git remote add origin <newly_created_git_remote_repo.git>
+   ```
+4) Rename your 'master' local branch to 'main'
+   ```
+   git branch -M main
+   ```
+5) Push your local repo to remote repo
+   ```
+   git push -u origin main
+   ``` 
+
 
