@@ -63,16 +63,16 @@ git cherry-pick <commit_number>
 # Undo git reset using reflog:
 When you do `git reset <SHA>`, then you bring back your repo to the state of <commit_id>. You cannot see this step in `git log`, but you can see it in `git reflog`.
 
-Following a `git reset`, this is your `git log --oneline` looks like. Notice that reset is not listed here.
+Following a `git reset`, this is your `git log --oneline` looks like. Notice that reset is not listed here.  
 ![image](https://github.com/user-attachments/assets/b56ced71-cd2f-46ef-9477-5d367040f5c6)
 
-To undo previous `git reset`:
+To undo previous `git reset`:  
 `git reflog`
-With this command, you will see ALL the log history like below. Notice reset is also listed here..
+With this command, you will see ALL the log history like below. Notice reset is also listed here..  
 ![image](https://github.com/user-attachments/assets/7189d77d-5baf-4b7f-98c3-257fd5f472ea)
 
-Undo the previous `git reset` with another `git reset` (fight fire with fire!):
+Undo the previous `git reset` with another `git reset` (fight fire with fire!):  
 ![image](https://github.com/user-attachments/assets/f5effc69-895a-4f0d-9380-8668088ba2a4)
 
-Result after this (phew!!)
+Result after this (phew!!)  
 ![image](https://github.com/user-attachments/assets/9d8cafb0-4707-409d-bdab-d8da601127d8)
