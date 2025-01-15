@@ -75,4 +75,13 @@ Undo the previous `git reset` with another `git reset` (fight fire with fire!):
 ![image](https://github.com/user-attachments/assets/f5effc69-895a-4f0d-9380-8668088ba2a4)
 
 Result after this (phew!!)  
-![image](https://github.com/user-attachments/assets/9d8cafb0-4707-409d-bdab-d8da601127d8)
+![image](https://github.com/user-attachments/assets/9d8cafb0-4707-409d-bdab-d8da601127d8)  
+
+# Modify .gitignore file and re-apply the new 'rules'
+Mid-way your work, you already some modified tracked changes and changes to be committed. You need to:  
+1. Edit your .gitignore file and save
+2. Remove all staged files: `git rm -r -f --cached .`. NOTE: only use -f if necessary, i.e. git will hint this.  
+   ![image](https://github.com/user-attachments/assets/4dc6501f-5399-409a-8329-2f9fe393ca5a)  
+   ![image](https://github.com/user-attachments/assets/5232e2a8-d344-46fc-8ea4-6d54c549d48a)  
+3. Add and commit: `git add .` and `git commit -m "precious message"`
+   
