@@ -74,4 +74,11 @@ When you have a local project in your machine and you want to create a remote re
    git push -u origin main
    ``` 
 
-
+## Clone Remote Repo
+```
+git clone <repo_URL>
+```
+When a repo has very long name, this can be problematic in Windows OS. Use `-c core.longpaths=true` option:
+```
+git clone -c core.longpaths=true <repo_URL>
+```
