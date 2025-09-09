@@ -69,6 +69,13 @@ Remote reference is named, by default, to `origin`. Use command below to rename.
 ```
 git remote -rename origin main
 ```
+
+If you want to change the origin of an existing repo:
+```
+git remote -v
+git remote set-url origin <NEW_GIT_URL_HERE>
+```
+
 To push your branch's new commits to remote repo branch:
 ```
 git push -u <remote reference> <remote branch>
